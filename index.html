@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <<body>
-    <p>Yeet</p> 
-  </body>
+  <p>
+    Redirecting..
+  </p>
+
+
+  <script>
+    const loc = window.location.href.split('url=')[1];
+    if (loc) {
+      window.location.replace(loc);
+    } 
+
+    console.log(`Redirecting to ${loc}`);
+
+  </script>
 </html>
 
